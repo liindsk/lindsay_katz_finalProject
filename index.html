@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Weather App - JavaScript</title>
+    <link rel="stylesheet" href="font/Rimouski.css">
+    <link rel="stylesheet" href="style.css">
+
+  <!--   <style>
+      body{
+        background-image: url("img/yellow-with-clouds-design/SL-031821-41530-15.jpg");
+      }
+    </style> -->
+</head>
+<body>
+
+    <div class="container">
+      <div class="instructions">
+
+        <h1>Instructions:</h1>
+        <p>1. Allow your browser to know your location.</p>
+        <p>2. Click on the current temperature to change between °C and °F</p>
+
+      </div> <!-- close . instructions -->
+
+        <div class="app-title">
+            <p>Weather</p>
+        </div> <!-- close .app-title -->
+        <div class="notification"> </div> <!-- close .notification -->
+        <div class="weather-container">
+            <div class="weather-icon">
+                <img src="icons/unknown.png" alt="">
+            </div> <!-- close weather-icon -->
+            <div class="temperature-value">
+                <p>- °<span>C</span></p>
+            </div> <!-- close .temperature-value -->
+            <div class="temperature-description">
+                <p> - </p>
+            </div> <!-- close .temperature-description -->
+            <div class="location">
+                <p>-</p>
+            </div> <!-- close .location -->
+        </div> <!-- close .weather-container -->
+    </div> <!-- close .container -->
+
+    <script src="app.js"></script>
+</body>
+</html>
